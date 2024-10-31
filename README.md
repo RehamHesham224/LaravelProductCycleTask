@@ -44,7 +44,7 @@ Type Safety with Enums: Enums are employed for casting model attributes to ensur
 Custom Helpers: Helper functions are included to simplify common tasks and reduce code duplication. These functions can be used throughout the application to provide utility methods.
 
 
-### Installation
+## Installation
 
 - Install dependencies:
 > composer install
