@@ -9,9 +9,9 @@ you can see database design of task during this link [database design](https://d
 - Retrieve a list of products.
 - Pagination support for product listings.
 - Order Creation with Queue
- - The order creation is handled asynchronously to ensure users do not experience delays when placing orders.
+  - The order creation is handled asynchronously to ensure users do not experience delays when placing orders.
 - Discount on orders
- - check its validation and calculate the order total based on a discount
+  - check its validation and calculate the order total based on a discount
 - Upload multi and single images.
 - API responses formatted for easy consumption.
 - Request Validations for security reasons and restrict type input.
