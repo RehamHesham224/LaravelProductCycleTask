@@ -5,13 +5,16 @@ This Task implements a product order management system using Laravel. It allows 
 you can see database design of task during this link [database design](https://drawsql.app/teams/reham/diagrams/producttask) .
 
 ## Features
-- Create new products with variations
-- Retrieve a list of products
-- Pagination support for product listings
-- API responses formatted for easy consumption
+- Create new products with variations and attributes.
+- Retrieve a list of products.
+- Pagination support for product listings.
 - Order Creation with Queue
-  - The order creation process is handled asynchronously to ensure that users do not experience delays when placing orders. 
-- Validations
+ - The order creation is handled asynchronously to ensure users do not experience delays when placing orders.
+- Discount on orders
+ - check its validation and calculate the order total based on a discount
+- Upload multi and single images.
+- API responses formatted for easy consumption.
+- Request Validations for security reasons and restrict type input.
 
 ## Technologies Used
 - Laravel 11
